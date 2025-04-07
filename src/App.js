@@ -16,7 +16,7 @@ function App() {
       <AppBar position="sticky" color="primary">
         <Toolbar>
           <Typography variant="h6" sx={{ flexGrow: 1 }}>
-            My Portfolio
+            All About Aarushi
           </Typography>
           <Button color="inherit" href="#about">About</Button>
           <Button color="inherit" href="#skills">Skills</Button>
@@ -31,18 +31,69 @@ function App() {
         <Box id="about" sx={{ padding: '60px 0' }}>
           <Typography variant="h3" gutterBottom align="center">About Me</Typography>
           <Typography variant="body1" align="center" paragraph>
-            I'm a passionate software developer with experience in web development, and I love building applications that solve real-world problems.
+          Hi! My name is Aarushi and I majored in Electrical Engineering and Computer Science (EECS) at UC Berkeley. I'm a passionate software developer with experience in fullstack development, 
+          and I love building applications that solve real-world problems. I am interested in various different technologies including generative AI, web development, data analytics, and more! 
+          I enjoy problem solving and am always eager to learn new things!
           </Typography>
         </Box>
 
         {/* Skills Section */}
-        <Box id="skills" sx={{ padding: '60px 0', backgroundColor: '#f5f5f5' }}>
+        <Box id="skills" sx={{ maxWidth: 250, padding: 2, margin: 1, backgroundColor: '#f5f5f5' }}>
           <Typography variant="h3" gutterBottom align="center">Skills</Typography>
           <Grid container spacing={3} justifyContent="center">
             <Grid item xs={6} sm={4} md={3}>
               <Card variant="outlined">
                 <CardContent>
                   <Typography variant="h6">JavaScript</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={6} sm={4} md={3}>
+              <Card variant="outlined">
+                <CardContent>
+                  <Typography variant="h6">TypeScript</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={6} sm={4} md={3}>
+              <Card variant="outlined">
+                <CardContent>
+                  <Typography variant="h6">Java</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={6} sm={4} md={3}>
+              <Card variant="outlined">
+                <CardContent>
+                  <Typography variant="h6">Python</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={6} sm={4} md={3}>
+              <Card variant="outlined">
+                <CardContent>
+                  <Typography variant="h6">C</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={6} sm={4} md={3}>
+              <Card variant="outlined">
+                <CardContent>
+                  <Typography variant="h6">SQL</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={6} sm={4} md={3}>
+              <Card variant="outlined">
+                <CardContent>
+                  <Typography variant="h6">Angular</Typography>
+                </CardContent>
+              </Card>
+            </Grid>
+            <Grid item xs={6} sm={4} md={3}>
+              <Card variant="outlined">
+                <CardContent>
+                  <Typography variant="h6">PyTorch</Typography>
                 </CardContent>
               </Card>
             </Grid>
