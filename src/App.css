@@ -1,20 +1,48 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Courier New', monospace; /* Monospaced font */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #f0f4f8;
+  background-color: #1e1e1e; /* Dark background (like VSCode dark mode) */
+  color: #d4d4d4; /* Light gray text color */
 }
 
 h3 {
   font-weight: bold;
+  color: #66d9ef; /* Neon blue for headers */
 }
 
 .card {
   border-radius: 10px;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+  background-color: #2d2d2d; /* Card color */
+  color: #f8f8f2; /* Light text color for cards */
 }
 
 button {
   text-transform: none;
+  color: #f8f8f2; /* Light text for buttons */
+  background-color: #007acc; /* VSCode-like blue for buttons */
+}
+
+button:hover {
+  background-color: #005a8c; /* Darker blue on hover */
+}
+
+/* Make the links (buttons) neon-like */
+button a {
+  color: #f8f8f2;
+}
+
+button a:hover {
+  color: #66d9ef; /* Neon blue on hover */
+}
+
+/* Neon text effect for body text */
+p, .MuiTypography-body1 {
+  color: #f8f8f2;
+}
+
+.MuiTypography-body2 {
+  color: #f8f8f2;
 }
