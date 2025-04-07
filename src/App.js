@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import { AppBar, Toolbar, Typography, Button, Container, Grid, Card, CardContent, CardActions, Divider, Box } from '@mui/material';
+import { Mail, LinkedIn } from '@mui/icons-material';
 
 // project data
 const projects = [
@@ -172,18 +173,37 @@ function App() {
 
         {/* Contact Section */}
         <Box id="contact" sx={{ padding: '60px 0', backgroundColor: '#f5f5f5' }}>
-          <Typography variant="h3" gutterBottom align="center">Contact</Typography>
-          <Typography variant="body1" align="center" paragraph>
-            Feel free to reach out to me via email or on social media.
-          </Typography>
-          <Grid container justifyContent="center">
-            <Grid item xs={6} sm={4}>
-              <Button variant="contained" color="primary" fullWidth href="mailto:example@example.com">
-                Contact Me
-              </Button>
-            </Grid>
-          </Grid>
-        </Box>
+  <Typography variant="h3" gutterBottom align="center">Contact</Typography>
+  <Typography variant="body1" align="center" paragraph>
+    Feel free to reach out to me via email or on social media.
+  </Typography>
+  <Grid container justifyContent="center" spacing={3}>
+    {/* Email Button */}
+    <Grid item xs={6} sm={4}>
+      <Button
+        variant="contained"
+        color="primary"
+        fullWidth
+        href="mailto:example@example.com"
+        startIcon={<Mail />}
+      >
+        Contact Me
+      </Button>
+    </Grid>
+    {/* LinkedIn Button */}
+    <Grid item xs={6} sm={4}>
+      <Button
+        variant="contained"
+        color="primary"
+        fullWidth
+        href="https://www.linkedin.com/in/your-linkedin-profile"
+        startIcon={<LinkedIn />}
+      >
+        LinkedIn
+      </Button>
+    </Grid>
+  </Grid>
+</Box>
       </Container>
 
       {/* Footer */}
