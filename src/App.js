@@ -147,7 +147,7 @@ function App() {
               <Button
                 variant="contained"
                 fullWidth
-                href="mailto:example@example.com"
+                href="mailto:aarushiagarwal0806@gmail.com"
                 startIcon={<Mail />}
                 sx={{
                   fontFamily: 'Courier New',
