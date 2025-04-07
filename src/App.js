@@ -165,7 +165,7 @@ function App() {
               <Button
                 variant="contained"
                 fullWidth
-                href="https://www.linkedin.com/in/your-linkedin-profile"
+                href="https://www.linkedin.com/in/aarushi0806/"
                 startIcon={<LinkedIn />}
                 sx={{
                   fontFamily: 'Courier New',
