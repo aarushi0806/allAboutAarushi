@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/allAboutAarushi/static/css/main.7172e8f4.css",
-    "main.js": "/allAboutAarushi/static/js/main.be7f16af.js",
+    "main.js": "/allAboutAarushi/static/js/main.4a7942a9.js",
     "static/js/453.253ccfac.chunk.js": "/allAboutAarushi/static/js/453.253ccfac.chunk.js",
     "index.html": "/allAboutAarushi/index.html",
     "main.7172e8f4.css.map": "/allAboutAarushi/static/css/main.7172e8f4.css.map",
-    "main.be7f16af.js.map": "/allAboutAarushi/static/js/main.be7f16af.js.map",
+    "main.4a7942a9.js.map": "/allAboutAarushi/static/js/main.4a7942a9.js.map",
     "453.253ccfac.chunk.js.map": "/allAboutAarushi/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7172e8f4.css",
-    "static/js/main.be7f16af.js"
+    "static/js/main.4a7942a9.js"
   ]
 }
