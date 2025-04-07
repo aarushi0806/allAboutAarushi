@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/all-about-aarushi/static/css/main.dc67eaaf.css",
+    "main.js": "/all-about-aarushi/static/js/main.53b7e47a.js",
+    "static/js/453.253ccfac.chunk.js": "/all-about-aarushi/static/js/453.253ccfac.chunk.js",
+    "index.html": "/all-about-aarushi/index.html",
+    "main.dc67eaaf.css.map": "/all-about-aarushi/static/css/main.dc67eaaf.css.map",
+    "main.53b7e47a.js.map": "/all-about-aarushi/static/js/main.53b7e47a.js.map",
+    "453.253ccfac.chunk.js.map": "/all-about-aarushi/static/js/453.253ccfac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dc67eaaf.css",
+    "static/js/main.53b7e47a.js"
+  ]
+}
